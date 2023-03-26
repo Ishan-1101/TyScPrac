@@ -1,0 +1,31 @@
+span {
+  color: royalblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter {
+  margin: 100px;
+}
+
+button {
+  background-color: royalblue;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+button:hover {
+  background-color: rgba(65, 105, 225, 0.750); 
+}
